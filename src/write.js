@@ -7,7 +7,7 @@
  * @license MIT
  */
 // eslint-disable-next-line import/extensions
-import { TransformStream as PonyfillTransformStream } from 'web-streams-polyfill/ponyfill';
+import { TransformStream as PonyfillTransformStream } from 'web-streams-polyfill';
 import JSBI from './bigint.js';
 import Crc32 from './crc.js';
 
